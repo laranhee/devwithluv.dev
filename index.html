@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DEV WITH LUV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand" style="width: 100%; justify-content: center;">
+        <!-- url 잘 제어 -->
+        <a class="navbar-item" href="/">
+          DEV WITH LUV
+        </a>
+      </div>
+    </nav>
+    <div class="columns is-centered">
+      <div class="column is-half-desktop">
+        <div class="section">
+          <h1 class="subtitle">Chrome</h1>
+          <ul>
+            {%- for vscode in collections.vscode -%}
+            <li>
+              <a href="{{ vscode.url }}">{{ vscode.data.title }}</a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+        <div class="section">
+          <h1 class="subtitle">Visual Studio Code</h1>
+          <ul>
+            {%- for vscode in collections.vscode -%}
+            <li>
+              <a href="{{ vscode.url }}">{{ vscode.data.title }}</a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
