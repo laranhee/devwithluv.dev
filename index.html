@@ -1,5 +1,6 @@
 ---
 layout: mylayout.njk
+eleventyExcludeFromCollections: true
 ---
 
 <div class="container">
@@ -14,20 +15,11 @@ layout: mylayout.njk
   ></iframe>
 </div>
 
-<h1 class="subtitle">Site</h1>
+<h1 class="subtitle">Post</h1>
 <ul>
-  {%- for post in collections.site -%}
+  {%- for post in collections.all -%}
   <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a>
-  </li>
-  {%- endfor -%}
-</ul>
-<p>&nbsp;</p>
-<h1 class="subtitle">Visual Studio Code</h1>
-<ul>
-  {%- for vscode in collections.vscode -%}
-  <li>
-    <a href="{{ vscode.url }}">{{ vscode.data.title }}</a>
   </li>
   {%- endfor -%}
 </ul>
