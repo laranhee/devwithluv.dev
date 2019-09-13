@@ -3,4 +3,8 @@ module.exports = function(eleventyConfig) {
     'node_modules/bulma/css/bulma.min.css': 'css/bulma.min.css',
     'favicon.ico': 'favicon.ico'
   });
+
+  return {
+    htmlTemplateEngine: 'njk'
+  };
 };
