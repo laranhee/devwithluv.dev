@@ -1,11 +1,11 @@
 ---
 title: bestofjs.org
-permalink: /site/bestofjs.org/index.html
-layout: post-layout.njk
-tags: site
+permalink: /sites/bestofjs.org/index.html
+layout: post-layout.html
+tags: sites
 ---
 
-## bestofjs.org
+##### bestofjs.org
 
 [https://bestofjs.org](https://bestofjs.org)
 

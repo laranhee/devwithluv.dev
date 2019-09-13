@@ -11,22 +11,22 @@
       media="screen"
       href="/css/bulma.min.css"
     />
+    <link href="/css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-brand" style="width: 100%; justify-content: center;">
-        <!-- url 잘 제어 -->
-        <a class="navbar-item" href="/">
+    <div
+      style="margin-left: auto; margin-right: auto; max-width: 42rem; padding: 2.625rem 1.3125rem;"
+    >
+      <div style="margin-bottom: 1rem;">
+        <a
+          class="title"
+          style="font-family: 'Nanum Pen Script', cursive;"
+          href="/"
+        >
           DEV WITH LUV
         </a>
       </div>
-    </nav>
-    <div class="columns is-centered">
-      <div class="column is-half-desktop">
-        <div class="section">
-          {{ content | safe }}
-        </div>
-      </div>
+      {{ content | safe }}
     </div>
   </body>
 </html>

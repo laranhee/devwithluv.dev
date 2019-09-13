@@ -1,8 +1,18 @@
 ---
-layout: mylayout.njk
+layout: mylayout.html
 ---
 
-<div class="content">
-  {{ content | safe }}
-  <div></div>
+<div style="margin-bottom: 3rem;">
+  <div class="content">
+    {{ content | safe }}
+  </div>
+</div>
+<div>
+  <a
+    href="https://github.com/laranhee/dev-with-luv/tree/master/{{
+      page.inputPath
+    }}"
+    target="_blank"
+    >깃헙에서 내용 수정하기</a
+  >
 </div>
