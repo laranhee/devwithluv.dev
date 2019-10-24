@@ -43,3 +43,36 @@ tags: 카테고리(예: chrome)
 
 개발과 관련된, 알면 좋지만 몰라도 상관없는 짧막한 정보들을 모아놓은 사이트
 ```
+
+## 이런사람들
+
+<table>
+   <tr>
+      <td>
+         laranhee
+      </td>
+      <td>
+         ddody
+      </td>
+      <td>
+         giyeonkwon
+      </td>
+      <td>
+         heyrinOh (202 Accepted)
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <img src="https://avatars2.githubusercontent.com/u/8968165?s=100&v=4"/>
+      </td>
+      <td>
+         <img src="https://avatars2.githubusercontent.com/u/11662233?s=100&v=4"/>
+      </td>
+      <td>
+         <img src="https://avatars2.githubusercontent.com/u/30770570?s=100&v=4"/>
+      </td>
+      <td>
+         <img src="https://avatars2.githubusercontent.com/u/38285577?s=100&v=4"/>
+      </td>
+   </tr>
+</table>
