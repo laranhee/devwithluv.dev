@@ -58,7 +58,7 @@ tags: 카테고리(예: chrome)
          giyeonkwon
       </td>
       <td>
-         heyrinOh (202 Accepted)
+         heyrinOh (504 Gateway Timeout)
       </td>
    </tr>
    <tr>
