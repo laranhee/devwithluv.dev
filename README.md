@@ -13,7 +13,7 @@
 2. npm install
 
    ```sh
-   cd dev-with-luv
+   cd devwithluv.dev
    npm install
    ```
 
