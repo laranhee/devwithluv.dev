@@ -25,7 +25,7 @@
 
 ## 포스트 추가하기
 
-post 폴더에 `카테고리/포스트-제목/index.md` 형태로 폴더와 md 파일을 만든다.
+src/post 폴더에 `카테고리/포스트-제목/index.md` 형태로 폴더와 md 파일을 만든다.
 
 md 파일에 다음과 같은 형식으로 포스트를 작성한다.
 
@@ -39,9 +39,21 @@ tags: 카테고리(예: chrome)
 
 ##### devwithluv.dev
 
-[https://devwithluv.devg](https://devwithluv.dev)
+[https://devwithluv.dev](https://devwithluv.dev)
 
-개발과 관련된, 알면 좋지만 몰라도 상관없는 짧막한 정보들을 모아놓은 사이트
+웹개발과 관련된, 알면 좋지만 몰라도 상관없는 짧막한 정보들을 모아놓은 사이트
+```
+
+### 로컬 이미지 추가하기
+
+외부 이미지가 아닌 로컬 이미지를 추가하고 싶을 경우, post 파일이 위치하는 경로가 `src/post/카테고리/포스트-제목/index.md` 일 때, `src/post-img/카테고리/포스트-제목/` 디렉토리에 이미지를 위치시키고, `index.md` 파일에서 현재 디렉토리에 이미지가 존재하는 것처럼 참조한다.
+
+예: post 파일(`src/post/example/test/index.md`)에 로컬이미지(`src/post-img/example/test/01.png`)를 참조할 때
+
+```md
+### 포스트
+
+![screenshot](01.png)
 ```
 
 ## 이런사람들
