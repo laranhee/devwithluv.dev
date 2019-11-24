@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/random"
   to = "https://bot.devwithluv.dev/.netlify/functions/random-post"
-  status = 301
+  status = 302
   force = false
